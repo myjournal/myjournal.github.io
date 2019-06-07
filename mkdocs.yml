@@ -1,0 +1,16 @@
+site_name: My Journal
+site_url: https://myjournal.github.io
+site_description: My Journal
+repo_url: https://github.com/myjournal/myjournal.github.io
+
+extra_css:
+  - custom.css
+
+remote_branch: master
+
+theme: readthedocs # quotes look odd... - fixed in custom.css
+
+nav:
+  - Home: index.md
+  - Category1:
+    - Note1: category1/note1.md
