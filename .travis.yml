@@ -1,0 +1,26 @@
+language: python
+python: '2.7'
+
+before_script:
+    - git config --global user.email $GIT_EMAIL
+    - git config --global user.name $GIT_NAME
+    - git config --global push.default simple
+
+install:
+    - pip install mkdocs
+    # - pip install mkdocs markdown-checklist (I don't think markdown-checklist is needed)
+
+script:
+    - mkdocs build --clean --verbose
+    
+after_success:
+    # It is kind of silly to clone something that exists locally,
+    # but `mkdocs gh-deploy` cannot read GH_TOKEN.
+    # Should maybe make shell script to test for mkdocs.yml before running deploy?
+    # going to try to manually push since gh-deploy doesn't seem to push the changes
+    - git clone -b master "https://${GH_TOKEN}@github.com/${GIT_NAME}/myjournal.github.io.git" gh-pages
+    - cd gh-pages
+    - git checkout source
+    - mkdocs gh-deploy
+    - git checkout master
+    - git push
