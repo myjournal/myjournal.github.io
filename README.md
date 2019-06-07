@@ -1,8 +1,4 @@
 # My Journal
-
-## Travis CI
-Build URL: https://travis-ci.org/myjournal/myjournal.github.io
-
 [![Build Status](https://travis-ci.org/myjournal/myjournal.github.io.svg?branch=source)](https://travis-ci.org/myjournal/myjournal.github.io)
 
 ## Steps to adding a new page
