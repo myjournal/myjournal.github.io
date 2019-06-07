@@ -12,5 +12,11 @@ theme: readthedocs # quotes look odd... - fixed in custom.css
 
 nav:
   - Home: index.md
-  - Category1:
-    - Note1: category1/note1.md
+  - Childhood:
+    - The Watch: childhood/1983-the-watch.md
+  - Teen:
+    - The 98-pound weakling: teen/1994-the-98lb-weakling.md
+    - The hospital: teen/1995-the-hospital.md
+  - College:
+    - Coca-Cola: cocacola.md
+  -Adult
