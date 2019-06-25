@@ -82,7 +82,7 @@ On a personal note, I remember my surgeon (Dr. William Brennom) being very nice,
 
 ## A new drug
 
-Shortly after the surgery my doctors decided to try a new drug to see if that would improve my condition.  The drug was named [Biaxin](https://en.wikipedia.org/wiki/Clarithromycin) and was relatively new.  The Biaxin, along with the surgery started clearing up my pneumonia.
+Around the time of the surgery my doctors decided to try a new drug to see if that would improve my condition.  The drug was named [Biaxin](https://en.wikipedia.org/wiki/Clarithromycin) and was relatively new.  The Biaxin, along with the surgery started clearing up my pneumonia.
 
 ## Recovery
 
