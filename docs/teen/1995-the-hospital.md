@@ -110,9 +110,9 @@ One of the later days of my hospital stay I was finally up and walking around.  
 
 He politely talked with my mom (I'm not sure where she told him I was) for a while and then had to go.  I completely missed meeting him because I didn't want to play chicken with my intestines.
 
-## March 11, 2017
+## March 11, 1995
 
-Exactly one month after being admitted to the hospital, I was released on March 11, 2017.  I was very weak, sore, and emotional, but I was very happy to be heading home.
+Exactly one month after being admitted to the hospital, I was released on March 11, 1995.  I was very weak, sore, and emotional, but I was very happy to be heading home.
 
 ## My mom
 
