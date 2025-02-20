@@ -1,0 +1,37 @@
+name: Build and Deploy MkDocs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+        with:
+          # This ensures mkdocs has to re-auth with each push
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build the site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages (site branch)
+        run: mkdocs gh-deploy --force
+        env:
+          # Pass the GitHub token so gh-deploy can push to the site branch
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
