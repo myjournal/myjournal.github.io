@@ -6,3 +6,5 @@ htmlcov/
 mkdocs.egg-info/
 *.pyc
 .coverage
+venv/
+.ssh_key_location

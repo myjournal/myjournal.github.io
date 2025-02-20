@@ -3,12 +3,10 @@ site_url: https://myjournal.github.io
 site_description: My Story
 repo_url: https://github.com/myjournal/myjournal.github.io
 
-google_analytics: ['UA-160386610-1', 'myjournal.github.io']
-
 extra_css:
   - custom.css
 
-remote_branch: master
+remote_branch: site
 
 theme: readthedocs # quotes look odd... - fixed in custom.css
 

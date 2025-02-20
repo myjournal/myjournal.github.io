@@ -15,5 +15,5 @@
  
 ## Git repository details
   - Markdown files go in ```source``` branch
-  - The ```mkdocs gh-deploy``` will push to the ```master``` branch which will be served live
+  - The ```mkdocs gh-deploy``` will push to the ```site``` branch which will be served live
 
