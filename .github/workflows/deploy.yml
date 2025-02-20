@@ -8,30 +8,33 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
-          # This ensures mkdocs has to re-auth with each push
+          # Optionally fetch all history so mkdocs can track version differences
+          fetch-depth: 0
+          # We want to clear out any existing credentials so we can set our own
           persist-credentials: false
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.13'
+          python-version: "3.13"
 
-      - name: Install dependencies
+      - name: Install MkDocs and plugins
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Build the site
-        run: mkdocs build
-
-      - name: Deploy to GitHub Pages (site branch)
-        run: mkdocs gh-deploy --force
+      - name: Build and Deploy with MkDocs
         env:
-          # Pass the GitHub token so gh-deploy can push to the site branch
+          # Expose GitHub token to mkdocs for pushing
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+        run: |
+          mkdocs gh-deploy --force
