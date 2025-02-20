@@ -1,5 +1,5 @@
 # My Journal
-[![Build Status](https://travis-ci.org/myjournal/myjournal.github.io.svg?branch=source)](https://travis-ci.org/myjournal/myjournal.github.io)
+![Build Status](https://github.com/myjournal/myjournal.github.io/actions/workflows/deploy.yml/badge.svg)
 
 ## Steps to adding a new page
 

@@ -5,27 +5,28 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          # Optionally fetch all history so mkdocs can track version differences
-          fetch-depth: 0
           # We want to clear out any existing credentials so we can set our own
           persist-credentials: false
 
       - name: Set up Git
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Set up Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.13"
+          python-version: 3.x
 
       - name: Install MkDocs and plugins
         run: |
@@ -33,8 +34,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build and Deploy with MkDocs
-        env:
+        #env:
           # Expose GitHub token to mkdocs for pushing
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdocs gh-deploy --force
