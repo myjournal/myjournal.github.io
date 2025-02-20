@@ -14,9 +14,6 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
-        with:
-          # We want to clear out any existing credentials so we can set our own
-          persist-credentials: false
 
       - name: Set up Git
         run: |
