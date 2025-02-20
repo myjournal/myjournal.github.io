@@ -9,5 +9,3 @@ I doubt my life story is of any interest to anyone on the internet, but maybe so
 ## Quick Bio
 
 I was born in 1979 in a suburb of Minneapolis, Minnesota.  I am the oldest of six children.  I am married to a beatiful wife and I have three amazing children.
-
-

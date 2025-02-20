@@ -52,9 +52,9 @@ At about three weeks into my hospital stay my hair started to get pretty shaggy 
 
 ## Chest tube
 
-One day, during another thoracentesis, the doctor realized that as fast as he was draining fluid, more fluid was entering my pleural space.  He decided it would be better to put in a more permanent drainage system in the form of a chest tube.  This would be the first time that I went under general anesthesia.  When I woke up I had a surgical tube coming out of my chest that ran down to a large white box that collected the fluid.  
+One day, during another thoracentesis, the doctor realized that as fast as he was draining fluid, more fluid was entering my pleural space.  He decided it would be better to put in a more permanent drainage system in the form of a chest tube.  This would be the first time that I went under general anesthesia.  When I woke up I had a surgical tube coming out of my chest that ran down to a large white box that collected the fluid.
 
-There was a steady flow of fluid for the first few days.  If I remember correctly, I believe that 1-2 *liters* of fluid were drained from my chest cavity each day.  Eventually, however, the drainage slowed but the x-rays showed that I still had fluid around my lung.  The nurses would routinely "strip" my chest tube by pinching the tube near my chest and pulling that closed part down the tube in hopes of freeing any obstructions.  This activity would create a suction on the tube that would cause bubbling inside my chest.  I have never had such a strange sensation before.  
+There was a steady flow of fluid for the first few days.  If I remember correctly, I believe that 1-2 *liters* of fluid were drained from my chest cavity each day.  Eventually, however, the drainage slowed but the x-rays showed that I still had fluid around my lung.  The nurses would routinely "strip" my chest tube by pinching the tube near my chest and pulling that closed part down the tube in hopes of freeing any obstructions.  This activity would create a suction on the tube that would cause bubbling inside my chest.  I have never had such a strange sensation before.
 
 ## School
 
@@ -72,11 +72,11 @@ This section is fuzzy to me because I was not awake during this time so it is a 
 
 I went into surgery for my third chest tube.  I the surgeon made an incision a couple of inches lower than my previous tubes and I believe used a scope to view the inside of my chest before inserting the tube.  When he viewed the inside of my chest he saw a mass of organized [pleural empyema](https://en.wikipedia.org/wiki/Pleural_empyema) - a collection of pus in the pleural cavity.  *Note: I read recently that pleural empyema is not revealed on an x-ray (it can't be differentiated from fluid) - an ultrasound can confirm empyema.*
 
-Upon this discovery he went out and talked to my parents and told them that they needed to do a full operation, open chest, to remove the empyema.  Without waking me, I was taken to the operating room.  A large incision was made (horizontal, under my right arm) and the muscles and ribs were moved out of the way so the surgeon could get into my chest cavity.  He told me afterwards that he had taken 4 large (12-16 ounce) masses of empyema from my chest cavity and drained 1-2 liters of fluid.  
+Upon this discovery he went out and talked to my parents and told them that they needed to do a full operation, open chest, to remove the empyema.  Without waking me, I was taken to the operating room.  A large incision was made (horizontal, under my right arm) and the muscles and ribs were moved out of the way so the surgeon could get into my chest cavity.  He told me afterwards that he had taken 4 large (12-16 ounce) masses of empyema from my chest cavity and drained 1-2 liters of fluid.
 
 My body was in shock when I woke up from surgery.  I was shaking and I remember being very cold.  The nurses kept piling hot blankets on me.  I tried to talk but my voice wouldn't work because of the breathing tube that had been in my throat.  I came in and out of the post-operation fog and tried to understand as they tried to explain what had happened.  I thought I was just going in for another chest tube but I couldn't understand the medical terms they were throwing at me.  I remember hot tears running down the sides of my face into my ears and not being able to control it.  My chest felt tight.  I'm sure my chest cavity was still numb from the medication but I was tightly wrapped in bandages.  I don't remember being wheeled in to see my parents but I remember crying when I saw them.
 
-The surgeon explained a bit more to me and I started to understand.  He showed me one of the masses of empyema - it looked like a big ball of cottage cheese.  
+The surgeon explained a bit more to me and I started to understand.  He showed me one of the masses of empyema - it looked like a big ball of cottage cheese.
 
 On a personal note, I remember my surgeon (Dr. William Brennom) being very nice, funny, and compassionate.  The surgery he performed on me most likely saved my life, so technically, Dr. Brennom saved my life!
 
