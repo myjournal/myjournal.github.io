@@ -8,3 +8,4 @@ mkdocs.egg-info/
 .coverage
 venv/
 .ssh_key_location
+mise.local.toml
